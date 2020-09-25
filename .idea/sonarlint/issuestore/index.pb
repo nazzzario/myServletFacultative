@@ -1,3 +1,19 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+m
+=src/main/java/com/krasn/facultative/models/entity/Course.java,1\5\150012ede0819b7ee0d491156b53f862fd1b34fb
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+x
+Hsrc/main/java/com/krasn/facultative/controllers/RegistrationServlet.java,2\2\225ee14ffdcf1d10ecbe370fac2f7b7fb0579b38
+t
+Dsrc/main/java/com/krasn/facultative/models/HikariConnectionPoll.java,7\3\738a8cab04cacf774a9ac319f6320c23f6673413
+P
+ src/main/webapp/registration.jsp,d\d\dd51f7041d5a8d7bb17c79a85099a350e198ae09
+k
+;src/main/java/com/krasn/facultative/models/entity/User.java,b\8\b829247425a0229553997862e2175b2724c5bb4b
+k
+;src/main/java/com/krasn/facultative/models/dao/UserDAO.java,2\0\205e7361c77a087b26adfd9253a8c54a221ac403
+p
+@src/main/java/com/krasn/facultative/controllers/TestServlet.java,e\b\eb2a85d43a0a387365dadbbecd1bd4c665a52347
