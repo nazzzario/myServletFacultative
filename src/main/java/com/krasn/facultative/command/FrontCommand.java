@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public abstract class FrontCommand implements Command {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(FrontCommand.class.getName());
 
 

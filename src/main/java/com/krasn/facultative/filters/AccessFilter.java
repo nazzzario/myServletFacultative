@@ -33,7 +33,7 @@ public class AccessFilter implements Filter {
         LOGGER.trace("Commons list contains {} items.", commons.size());
 
         outOfControl = asList(filterConfig.getInitParameter("out_of_control"));
-        LOGGER.trace("Out of control list contains " + outOfControl.size() + " items.");
+        LOGGER.trace("Out of control list contains {} items.", outOfControl.size());
 
         LOGGER.debug("Leaving access filter init.");
     }
