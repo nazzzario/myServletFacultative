@@ -1,7 +1,0 @@
-
-P
-java:S1118":Add a private constructor to hide the implicit public one.(ÁÇæÅ
-R
-java:S1068"7Remove this unused "SQL_FIND_USER_BY_ID" private field.(Úí¡„þÿÿÿÿ
-P
-java:S1068":Remove this unused "SQL_FIND_USER_BY_LOGIN" private field.(àÓ†Â
