@@ -22,6 +22,7 @@
       <param-value>
         add-course
         add-teacher
+        list-users
       </param-value>
     </init-param>
     <init-param>

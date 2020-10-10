@@ -23,6 +23,9 @@ public class CommandInvoker {
         COMMANDS.put("add-student", AddStudentCommand::new);
         COMMANDS.put("add-teacher", AddTeacherCommand::new);
         COMMANDS.put("add-course", AddCourseCommand::new );
+
+
+        COMMANDS.put("list-users",ListUsersCommand::new);
     }
 
     public static FrontCommand getCommand(String commandName) {

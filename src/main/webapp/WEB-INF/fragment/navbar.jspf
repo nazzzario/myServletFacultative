@@ -29,7 +29,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href=""><fmt:message key="nav.adm.usr"/></a>
+                            <a class="nav-link" href="controller?command=list-users"><fmt:message key="nav.adm.usr"/></a>
                         </li>
 
                         <li class="nav-item">

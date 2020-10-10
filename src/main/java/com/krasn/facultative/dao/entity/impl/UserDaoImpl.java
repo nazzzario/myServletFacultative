@@ -101,7 +101,7 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
 
     @Override
     protected String getSelectAllQuery() {
-        return null;
+        return Query.SELECT_ALL_USERS;
     }
 
     @Override

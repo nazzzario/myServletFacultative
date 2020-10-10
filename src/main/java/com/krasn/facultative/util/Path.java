@@ -23,4 +23,8 @@ public class Path {
     public static final String FORWARD_TO_ADD_COURSE_FORM = "/WEB-INF/jsp/add-course-form.jsp";
 
     public static final String REDIRECT_TO_ADD_COURSE_FORM = "controller?command=add-course";
+
+    public static final String REDIRECT_TO_VIEW_USERS_LIST = "controller?command=list-users";
+    public static final String FORWARD_TO_VIEW_USERS_LIST = "/WEB-INF/jsp/list-users.jsp";
+
 }
