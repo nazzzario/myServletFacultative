@@ -2,12 +2,16 @@
 <!DOCTYPE>
 <%@ include file="/WEB-INF/fragment/head.jspf" %>
 
+<header>
+    <%@ include file="/WEB-INF/fragment/navbar.jspf" %>
+</header>
 <body>
 <div class="container">
 
     <div class="form-container">
+        <h2><fmt:message key="adm.teacher.registration"/></h2>
         <form method="post" action="controller">
-            <input type="hidden" name="command" value="add-student">
+            <input type="hidden" name="command" value="add-teacher">
 
             <div class="form-field">
                 <label for="login"><fmt:message key="label.username"/></label<br><br>
@@ -34,10 +38,9 @@
         <fmt:message key="login.page" var="login"/>
         <div><a href="controller?command=login">${login}</a></div>
     </div>
-    <div>
-        <%@ include file="/WEB-INF/fragment/locale.jspf" %>
-    </div>
 </div>
 </body>
 <%@ include file="/WEB-INF/fragment/script.jspf" %>
+<%@ include file="/WEB-INF/fragment/footer.jspf" %>
+
 </html>

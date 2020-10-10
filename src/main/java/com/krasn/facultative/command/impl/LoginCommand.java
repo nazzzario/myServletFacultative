@@ -17,7 +17,7 @@ public class LoginCommand extends FrontCommand {
 
     @Override
     protected String doGet() {
-        return Path.REDIRECT_TO_LOGIN_FORM;
+        return Path.FORWARD_TO_LOGIN_FORM;
     }
 
     @Override

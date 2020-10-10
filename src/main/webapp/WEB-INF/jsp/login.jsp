@@ -1,5 +1,4 @@
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<fmt:setBundle basename="messages"/>
+<%@ include file="/WEB-INF/fragment/directive/taglib.jspf" %>
 
 <html>
 <head>
@@ -11,8 +10,7 @@
 </head>
 
 <body>
-
-
+<%@ include file="/WEB-INF/fragment/locale.jspf" %>
 <div class="container">
 
     <div class="login-container">
@@ -44,4 +42,5 @@
 </div>
 </body>
 <%@ include file="/WEB-INF/fragment/script.jspf" %>
+<%@ include file="/WEB-INF/fragment/footer.jspf" %>
 </html>

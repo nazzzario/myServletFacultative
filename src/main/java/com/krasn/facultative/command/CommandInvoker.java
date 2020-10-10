@@ -17,11 +17,12 @@ public class CommandInvoker {
     private static final Map<String, CommandCreator> COMMANDS = new HashMap<>();
 
     static {
-        COMMANDS.put("add-student", AddStudentCommand::new);
         COMMANDS.put("login", LoginCommand::new);
         COMMANDS.put("logout", LogoutCommand::new );
-        COMMANDS.put("add-course", AddCourseCommand::new );
         COMMANDS.put("language", LanguageCommand::new);
+        COMMANDS.put("add-student", AddStudentCommand::new);
+        COMMANDS.put("add-teacher", AddTeacherCommand::new);
+        COMMANDS.put("add-course", AddCourseCommand::new );
     }
 
     public static FrontCommand getCommand(String commandName) {

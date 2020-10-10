@@ -3,11 +3,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ include file="/WEB-INF/fragment/directive/taglib.jspf" %>
 
-
-<head>
-    <%@ include file="/WEB-INF/fragment/locale.jspf" %>
-</head>
-
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/"><fmt:message key="nav.brand"/></a>
@@ -26,7 +21,7 @@
                     </c:when>
                     <c:when test="${sessionScope.user_role.name() == 'ADMIN'}">
                         <li class="nav-item">
-                            <a class="nav-link" href=""><fmt:message key="nav.adm.reg"/></a>
+                            <a class="nav-link" href="controller?command=add-teacher"><fmt:message key="nav.adm.reg"/></a>
                         </li>
 
                         <li class="nav-item">
@@ -55,15 +50,19 @@
             </ul>
         </div>
 
+        <div>
+            <%@ include file="/WEB-INF/fragment/locale.jspf" %>
+        </div>
 
+        <div>
+                <c:if test="${not empty sessionScope.user_role}">
+                    <b><c:out value="${sessionScope.user.firstName} ${sessionScope.user.lastName}"/></b>
+                    <a href="controller?command=logout"><fmt:message key="prof.signout"/></a>
+                </c:if>
 
-        <%--        <div class="m-2" sec:authorize="isAuthenticated()" th:include="/fragments/dropdown-profile:: profile"></div>--%>
-        <fmt:message key="nav.signin" var="signin"/>
-        <fmt:message key="prof.signout" var="signout"/>
-
-        <input  class="btn btn-outline-success" type="submit">
-        <a href="controller?command=login">login</a>
-
-        </form>
+                <c:if test="${empty sessionScope.user_role}">
+                    <a href="controller?command=login"><fmt:message key="nav.signin"/></a>
+                </c:if>
+        </div>
     </nav>
 </header>
