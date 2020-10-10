@@ -2,15 +2,10 @@
   Created by IntelliJ IDEA.
   User: krasn
   Date: 10/9/2020
-  Time: 5:43 PM
+  Time: 7:21 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-Error
-</body>
-</html>
+<div class="footer-copyright  py-3">© 2020 Copyright:
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Nazar Krasnovoronka</a>
+</div>

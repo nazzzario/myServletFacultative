@@ -68,6 +68,7 @@ public class Course implements Identified<Long>, Serializable {
         return courseStatus;
     }
 
+
     public void setCourseStatus(CourseStatus courseStatus) {
         this.courseStatus = courseStatus;
     }

@@ -59,16 +59,17 @@ public class LoginCommand extends FrontCommand {
 
             LOGGER.trace("on doPost() user with id {}",user.getId());
             UserRole role = user.getUserRole();
-            path = Path.REDIRECT_TO_VIEW_COURSES_LIST + "&adds=new";
+            path = Path.WELCOME_PAGE;
             session.setAttribute("user", user);
-            session.setAttribute("user_permission", role);
-        } else {
-            LOGGER.trace("on doPost() user with id {}", user.getId());
-            UserRole role = user.getUserRole();
-            path = Path.REDIRECT_TO_COURSES_LIST_FOR_EVALUATION;
-            session.setAttribute("user", user);
-            session.setAttribute("user_permission", role);
+            session.setAttribute("user_role", role);
         }
+//        else {
+//            LOGGER.trace("on doPost() user with id {}", user.getId());
+//            UserRole role = user.getUserRole();
+//            path = Path.WELCOME_PAGE;
+//            session.setAttribute("user", user);
+//            session.setAttribute("user_permission", role);
+//        }
 
         LOGGER.debug("Leaving doPost() {} ",path);
         return path;

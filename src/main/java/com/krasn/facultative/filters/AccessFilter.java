@@ -15,7 +15,7 @@ public class AccessFilter implements Filter {
     private static final Logger LOGGER = LoggerFactory.getLogger(AccessFilter.class.getName());
 
 
-    private Map<UserRole, List<String>> accessMap = new HashMap<>();
+    private final Map<UserRole, List<String>> accessMap = new HashMap<>();
     private List<String> commons = new ArrayList<>();
     private List<String> outOfControl = new ArrayList<>();
 
@@ -49,19 +49,19 @@ public class AccessFilter implements Filter {
         } else {
             String errorMessage = "You do not have permission to access the requested command!";
             servletRequest.setAttribute("error_message", errorMessage);
-            LOGGER.trace("Set the request attribute: error_message = " + errorMessage);
+            LOGGER.trace("Set the request attribute: error_message = {}", errorMessage);
             servletRequest.getRequestDispatcher(Path.ERROR_PAGE).forward(servletRequest, servletResponse);
         }
 
         LOGGER.debug("Leaving doFilter()");
     }
 
-    private boolean isAllowed(ServletRequest _request) {
+    private boolean isAllowed(ServletRequest servletRequest) {
 
-        HttpServletRequest request = (HttpServletRequest) _request;
+        HttpServletRequest request = (HttpServletRequest) servletRequest;
 
         String command = request.getParameter("command");
-        LOGGER.trace("Command: " + command);
+        LOGGER.trace("Command: {}", command);
         if (command == null || command.isEmpty()) {
             return false;
         }
@@ -88,9 +88,4 @@ public class AccessFilter implements Filter {
         return list;
     }
 
-    @Override
-    public void destroy( ) {
-
-        /*NOP*/
-    }
 }

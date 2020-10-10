@@ -17,7 +17,7 @@
             </div>
         </c:if>
         <form method="post" action="controller">
-            <input type="hidden" name="command" value="Login">
+            <input type="hidden" name="command" value="login">
 
             <div>
                 <div class="login-field">

@@ -2,15 +2,14 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <fmt:setBundle basename="messages"/>
 <!DOCTYPE>
+<%@ include file="/WEB-INF/fragment/head.jspf" %>
 
 <body>
-
-
 <div class="container">
 
     <div class="form-container">
         <form method="post" action="controller">
-            <input type="hidden" name="command" value="AddStudent">
+            <input type="hidden" name="command" value="add-student">
 
             <div class="form-field">
                 <label for="login"><fmt:message key="label.username"/></label<br><br>
@@ -37,4 +36,5 @@
     </div>
 </div>
 </body>
+
 </html>

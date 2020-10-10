@@ -45,7 +45,7 @@ public abstract class FrontCommand implements Command {
             path = doPost();
         }
 
-        LOGGER.debug("Leaving execute(): " + path);
+        LOGGER.debug("Leaving execute(): {}", path);
 
         return path;
     }

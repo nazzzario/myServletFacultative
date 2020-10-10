@@ -1,0 +1,65 @@
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<fmt:setBundle basename="messages"/>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/"><fmt:message key="nav.brand"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <c:choose>
+                    <c:when test="${sessionScope.user_role.name() == 'STUDENT'}">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><fmt:message key="nav.courses"/></a>
+                        </li>
+                    </c:when>
+                    <c:when test="${sessionScope.user_role.name() == 'ADMIN'}">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><fmt:message key="nav.adm.reg"/></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="controller?command=add-course"><fmt:message key="nav.adm.crt"/></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><fmt:message key="nav.adm.usr"/></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><fmt:message key="nav.adm.crs"/></a>
+                        </li>
+                    </c:when>
+                    <c:when test="${sessionScope.user_role.name() == 'TEACHER'}">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><fmt:message key="nav.tch.journal"/></a>
+                        </li>
+                    </c:when>
+                    <c:when test="${sessionScope.user_role == null}">
+                        <li class="nav-item active">
+                            <a class="nav-link" href=""><fmt:message key="nav.catalog"/><span class="sr-only"></span></a>
+                        </li>
+                    </c:when>
+                </c:choose>
+            </ul>
+        </div>
+
+
+
+        <%--        <div class="m-2" sec:authorize="isAuthenticated()" th:include="/fragments/dropdown-profile:: profile"></div>--%>
+        <fmt:message key="nav.signin" var="signin"/>
+        <fmt:message key="prof.signout" var="signout"/>
+
+        <input  class="btn btn-outline-success" type="submit">
+        <a href="controller?command=login">login</a>
+
+        </form>
+    </nav>
+</header>

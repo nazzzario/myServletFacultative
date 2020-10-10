@@ -58,6 +58,6 @@ public class AddStudentCommand extends FrontCommand {
         }
 
         LOGGER.debug("Leaving doPost()");
-        return Path.REDIRECT_TO_VIEW_USERS_LIST;
+        return Path.REDIRECT_TO_LOGIN_FORM;
     }
 }

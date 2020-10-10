@@ -1,7 +1,9 @@
 package com.krasn.facultative.command;
 
+import com.krasn.facultative.command.impl.AddCourseCommand;
 import com.krasn.facultative.command.impl.AddStudentCommand;
 import com.krasn.facultative.command.impl.LoginCommand;
+import com.krasn.facultative.command.impl.LogoutCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,13 +12,18 @@ import java.util.Map;
 
 public class CommandInvoker {
 
+    private CommandInvoker() {
+    }
+
     private static final Logger LOGGER = LoggerFactory.getLogger(CommandInvoker.class.getName());
 
     private static final Map<String, CommandCreator> COMMANDS = new HashMap<>();
 
     static {
-        COMMANDS.put("Login", LoginCommand::new);
-        COMMANDS.put("AddStudent", AddStudentCommand::new);
+        COMMANDS.put("add-student", AddStudentCommand::new);
+        COMMANDS.put("login", LoginCommand::new);
+        COMMANDS.put("logout", LogoutCommand::new );
+        COMMANDS.put("add-course", AddCourseCommand::new );
     }
 
     public static FrontCommand getCommand(String commandName) {

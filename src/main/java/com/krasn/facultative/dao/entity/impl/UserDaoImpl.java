@@ -8,10 +8,7 @@ import com.krasn.facultative.domain.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -33,10 +30,27 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
         } catch (NullPointerException e) {
             LOGGER.error("NPE exception while creating statement.\n", e);
         } catch (NoSuchElementException e) {
-            LOGGER.error("Can't find any user with login " + login, e);
+            LOGGER.error("Can't find any user with login {} ",login, e);
         }
 
         return user;
+    }
+
+    @Override
+    public List<User> getTeachers() {
+        List<User> list = new ArrayList<>();
+
+        try (Connection connection = ConnectionPool.getConnection();
+             Statement stmt = connection.createStatement()) {
+
+            list = parseResultSet(stmt.executeQuery(Query.SELECT_ALL_TEACHERS));
+        } catch (SQLException e) {
+            LOGGER.error("Exception while getting unblocked students.\n", e);
+        } catch (NullPointerException e) {
+            LOGGER.error("NPE exception while creating statement.\n", e);
+        }
+
+        return list;
     }
 
     @Override

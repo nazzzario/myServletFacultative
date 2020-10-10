@@ -47,22 +47,22 @@ public abstract class AbstractDao <T extends Identified<PK>, PK> implements Gene
                 prepareStatementForCreate(stmt, object);
                 int count = stmt.executeUpdate();
             } catch (SQLException e) {
-                connection.rollback();
                 LOGGER.error("Exception while creating object.\n", e);
-            } catch (NullPointerException e) {
                 connection.rollback();
+            } catch (NullPointerException e) {
                 LOGGER.error("NPE exception while preparing statement.\n", e);
+                connection.rollback();
             }
 
             try (Statement stmt = connection.createStatement()) {
                 ResultSet rs = stmt.executeQuery(getLastInsertId());
                 created = parseResultSet(rs).iterator().next();
             } catch (SQLException e) {
-                connection.rollback();
                 LOGGER.error("Exception while getting just created object.\n", e);
-            } catch (NullPointerException e) {
                 connection.rollback();
+            } catch (NullPointerException e) {
                 LOGGER.error("NPE exception while preparing statement.\n", e);
+                connection.rollback();
             }
             connection.commit();
         } catch (SQLException e) {
@@ -102,9 +102,7 @@ public abstract class AbstractDao <T extends Identified<PK>, PK> implements Gene
 
     @Override
     public List<T> getAll( ) {
-
         List<T> list = new ArrayList<>();
-
         try (Connection connection = ConnectionPool.getConnection()) {
             try (Statement stmt = connection.createStatement()) {
 
