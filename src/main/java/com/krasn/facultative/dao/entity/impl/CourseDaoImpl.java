@@ -1,16 +1,15 @@
 package com.krasn.facultative.dao.entity.impl;
 
+import com.krasn.facultative.dao.ConnectionPool;
 import com.krasn.facultative.dao.Query;
 import com.krasn.facultative.dao.entity.CourseDao;
 import com.krasn.facultative.domain.entity.Course;
+import com.krasn.facultative.domain.entity.User;
 import com.krasn.facultative.domain.enums.CourseStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,8 +43,8 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
                 Course course = new Course();
                 course.setId(rs.getLong("course_id"));
                 course.setCourseName(rs.getString("course_name"));
-                course.setSubjectId(rs.getLong("subject_id"));
-                course.setTeacherId(rs.getLong("teacher_id"));
+                course.setSubjectName(rs.getString("subject_name"));
+                course.setTeacherName(rs.getString("teacher"));
                 course.setStartDate(rs.getDate("start_date").toLocalDate());
                 course.setEndDate(rs.getDate("end_date").toLocalDate());
                 course.setCourseStatus(CourseStatus.valueOf(rs.getString("course_status")));
@@ -97,4 +96,5 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
     protected String getDeleteQuery() {
         return null;
     }
+
 }

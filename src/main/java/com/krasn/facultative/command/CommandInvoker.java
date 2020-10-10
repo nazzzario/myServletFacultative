@@ -22,8 +22,11 @@ public class CommandInvoker {
         COMMANDS.put("language", LanguageCommand::new);
         COMMANDS.put("add-student", AddStudentCommand::new);
         COMMANDS.put("add-teacher", AddTeacherCommand::new);
-        COMMANDS.put("add-course", AddCourseCommand::new );
 
+
+        COMMANDS.put("add-course", AddCourseCommand::new );
+        COMMANDS.put("list-courses", ListCoursesCommand::new);
+        COMMANDS.put("edit-course", EditCourseCommand::new);
 
         COMMANDS.put("list-users",ListUsersCommand::new);
         COMMANDS.put("block-student",BlockStudentCommand::new);

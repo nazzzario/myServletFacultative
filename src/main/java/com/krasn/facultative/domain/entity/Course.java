@@ -10,10 +10,13 @@ public class Course implements Identified<Long>, Serializable {
     private Long id;
     private String courseName;
     private Long subjectId;
+    private String subjectName;
     private Long teacherId;
+    private String teacherName;
     private LocalDate startDate;
     private LocalDate endDate;
     private CourseStatus courseStatus;
+
 
     @Override
     public Long getId() {
@@ -48,6 +51,7 @@ public class Course implements Identified<Long>, Serializable {
         this.teacherId = teacherId;
     }
 
+
     public LocalDate getStartDate() {
         return startDate;
     }
@@ -68,9 +72,20 @@ public class Course implements Identified<Long>, Serializable {
         return courseStatus;
     }
 
-
     public void setCourseStatus(CourseStatus courseStatus) {
         this.courseStatus = courseStatus;
+    }
+
+    public String getSubjectName() {
+        return subjectName;
+    }
+
+    public void setSubjectName(String subjectName) {
+        this.subjectName = subjectName;
+    }
+
+    public String getTeacherName() {
+        return teacherName;
     }
 
     @Override
@@ -79,10 +94,16 @@ public class Course implements Identified<Long>, Serializable {
                 "id=" + id +
                 ", courseName='" + courseName + '\'' +
                 ", subjectId=" + subjectId +
+                ", subjectName='" + subjectName + '\'' +
                 ", teacherId=" + teacherId +
+                ", teacherName='" + teacherName + '\'' +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
                 ", courseStatus=" + courseStatus +
                 '}';
+    }
+
+    public void setTeacherName(String teacherName) {
+        this.teacherName = teacherName;
     }
 }

@@ -2,10 +2,9 @@ package com.krasn.facultative.util;
 
 public class Path {
 
+
     private Path() {
     }
-
-
 
 
     public static final String WELCOME_PAGE = "main.jsp";
@@ -28,4 +27,9 @@ public class Path {
     public static final String REDIRECT_TO_VIEW_USERS_LIST = "controller?command=list-users";
     public static final String FORWARD_TO_VIEW_USERS_LIST = "/WEB-INF/jsp/list-users.jsp";
 
+    public static final String FORWARD_TO_EDIT_COURSE = "/WEB-INF/jsp/edit-course-form.jsp";
+    public static final String REDIRECT_TO_EDIT_COURSE = "controller?command=edit-course";
+
+    public static final String REDIRECT_TO_VIEW_COURSES_LIST = "controller?command=list-courses";
+    public static final String FORWARD_TO_VIEW_COURSES_LIST = "/WEB-INF/jsp/list-courses.jsp";
 }

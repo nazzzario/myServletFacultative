@@ -9,14 +9,19 @@ public final class Query {
 
 
     //course
-    public static final String INSERT_COURSE = "INSERT INTO course " +
-            "(course_name, subject_id,teacher_id, start_date, end_date) " +
-            "VALUES (?, ?, ?, ?, ?)";
-    public static final String SELECT_ALL_COURSES = "SELECT * FROM course";
     public static final String SELECT_UNGROUPED_COURSES = "SELECT subject.subject_name, usr.first_name, usr.last_name, course.*, COUNT(*) AS 'subscribed_by' FROM course_student\n"
             + "RIGHT JOIN course ON course.course_id = course_student.course_id\n"
             + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
             + "LEFT JOIN usr ON usr.usr_id = course.teacher_id\n";
+
+    public static final String INSERT_COURSE = "INSERT INTO course " +
+            "(course_name, subject_id,teacher_id, start_date, end_date) " +
+            "VALUES (?, ?, ?, ?, ?)";
+
+    public static final String SELECT_ALL_COURSES = "select course.course_id, course.course_name, subject.subject_name, course.start_date, course.end_date, course.course_status, concat(usr.first_name, ' ', usr.last_name) as teacher\n"
+    + "from course\n"
+    + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
+    + "inner join usr on course.teacher_id = usr.usr_id";
 
     public static final String SELECT_LAST_INSERT_COURSE = SELECT_UNGROUPED_COURSES + "WHERE course.course_id = LAST_INSERT_ID() GROUP BY course_student.course_id";
 
