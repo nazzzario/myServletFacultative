@@ -5,6 +5,9 @@ public final class Query {
     private Query() {
     }
 
+
+
+
     //course
     public static final String INSERT_COURSE = "INSERT INTO course " +
             "(course_name, subject_id,teacher_id, start_date, end_date) " +
@@ -25,7 +28,15 @@ public final class Query {
     public static final String INSERT_USER = "INSERT INTO usr (login, password, role, first_name, last_name) VALUES (?, ?, ?, ?, ?)";
     public static final String SELECT_LAST_INSERT_USER = "SELECT * FROM usr WHERE usr_id = LAST_INSERT_ID()";
 
+    public static final String SELECT_ALL_STUDENTS = "SELECT * FROM usr WHERE role = 'STUDENT'";
     public static final String SELECT_ALL_TEACHERS = "SELECT * FROM usr WHERE role = 'TEACHER'";
 
+    public static final String SELECT_UNBLOCKED_STUDENTS = "SELECT * FROM usr WHERE role = 'STUDENT' AND blocked = 0";
+    public static final String SELECT_BLOCKED_STUDENTS = "SELECT * FROM usr WHERE role = 'STUDENT' AND blocked = 1";
+
+    public static final String UPDATE_USER = "UPDATE usr SET login = ?, password = ?, role = ?, first_name = ?, last_name = ?, blocked = ? WHERE usr_id = ?";
+
+
+    //subject
     public static final String SELECT_ALL_SUBJECTS = "SELECT * FROM subject";
 }

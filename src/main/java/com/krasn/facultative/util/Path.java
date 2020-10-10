@@ -7,6 +7,7 @@ public class Path {
 
 
 
+
     public static final String WELCOME_PAGE = "main.jsp";
 
     public static final String FORWARD_TO_LOGIN_FORM = "/WEB-INF/jsp/login.jsp";

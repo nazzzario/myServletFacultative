@@ -9,4 +9,11 @@ public interface UserDao extends GenericDao<User,Long> {
     User getByLogin(String login);
 
     List<User> getTeachers();
+
+    List<User> getStudents();
+
+    List<User> getUnblockedStudents();
+
+    List<User> getBlockedStudents();
+
 }

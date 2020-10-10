@@ -38,19 +38,66 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
 
     @Override
     public List<User> getTeachers() {
-        List<User> list = new ArrayList<>();
+        List<User> teachers = new ArrayList<>();
 
         try (Connection connection = ConnectionPool.getConnection();
              Statement stmt = connection.createStatement()) {
 
-            list = parseResultSet(stmt.executeQuery(Query.SELECT_ALL_TEACHERS));
+            teachers = parseResultSet(stmt.executeQuery(Query.SELECT_ALL_TEACHERS));
         } catch (SQLException e) {
             LOGGER.error("Exception while getting unblocked students.\n", e);
         } catch (NullPointerException e) {
             LOGGER.error("NPE exception while creating statement.\n", e);
         }
 
-        return list;
+        return teachers;
+    }
+
+    @Override
+    public List<User> getStudents() {
+        List<User> students = new ArrayList<>();
+
+        try (Connection connection = ConnectionPool.getConnection();
+             Statement stmt = connection.createStatement()) {
+
+            students = parseResultSet(stmt.executeQuery(Query.SELECT_ALL_STUDENTS));
+        } catch (SQLException e) {
+            LOGGER.error("Exception while getting students.\n", e);
+        } catch (NullPointerException e) {
+            LOGGER.error("NPE exception while creating statement.\n", e);
+        }
+
+        return students;
+    }
+
+    @Override
+    public List<User> getUnblockedStudents() {
+        List<User> unblockedStudents = new ArrayList<>();
+        try(Connection connection = ConnectionPool.getConnection();
+            Statement stmt = connection.createStatement()){
+
+            unblockedStudents = parseResultSet(stmt.executeQuery(Query.SELECT_UNBLOCKED_STUDENTS));
+        } catch (SQLException e) {
+            LOGGER.error("Exception while getting unblocked students.\n", e);
+        } catch (NullPointerException e) {
+            LOGGER.error("NPE exception while creating statement.\n", e);
+        }
+        return unblockedStudents;
+    }
+
+    @Override
+    public List<User> getBlockedStudents() {
+        List<User> blockedStudents = new ArrayList<>();
+        try(Connection connection = ConnectionPool.getConnection();
+            Statement stmt = connection.createStatement()){
+
+            blockedStudents = parseResultSet(stmt.executeQuery(Query.SELECT_BLOCKED_STUDENTS));
+        } catch (SQLException e) {
+            LOGGER.error("Exception while getting blocked students.\n", e);
+        } catch (NullPointerException e) {
+            LOGGER.error("NPE exception while creating statement.\n", e);
+        }
+        return blockedStudents;
     }
 
     @Override
@@ -96,7 +143,7 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
 
     @Override
     protected String getSelectByIdQuery() {
-        return null;
+        return Query.SELECT_USER_BY_ID;
     }
 
     @Override
@@ -111,7 +158,7 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
 
     @Override
     protected String getUpdateQuery() {
-        return null;
+        return Query.UPDATE_USER;
     }
 
     @Override
@@ -134,8 +181,4 @@ public class UserDaoImpl  extends AbstractDao<User, Long> implements UserDao {
         return null;
     }
 
-    @Override
-    public User get(Long key) {
-        return null;
-    }
 }

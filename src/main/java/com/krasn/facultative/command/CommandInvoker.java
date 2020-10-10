@@ -26,6 +26,8 @@ public class CommandInvoker {
 
 
         COMMANDS.put("list-users",ListUsersCommand::new);
+        COMMANDS.put("block-student",BlockStudentCommand::new);
+        COMMANDS.put("unblock-student", UnblockStudentCommand::new);
     }
 
     public static FrontCommand getCommand(String commandName) {
