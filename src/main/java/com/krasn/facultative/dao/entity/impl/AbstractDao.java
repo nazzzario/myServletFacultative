@@ -45,12 +45,12 @@ public abstract class AbstractDao <T extends Identified<PK>, PK> implements Gene
             }
             try (PreparedStatement stmt = connection.prepareStatement(getInsertQuery())) {
                 prepareStatementForCreate(stmt, object);
-                int count = stmt.executeUpdate();
+                stmt.executeUpdate();
             } catch (SQLException e) {
                 LOGGER.error("Exception while creating object.\n", e);
                 connection.rollback();
             } catch (NullPointerException e) {
-                LOGGER.error("NPE exception while preparing statement.\n", e);
+                LOGGER.error("NPE exception while preparing statement.", e);
                 connection.rollback();
             }
 

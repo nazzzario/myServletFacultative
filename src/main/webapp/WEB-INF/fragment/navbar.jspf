@@ -1,8 +1,12 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file="/WEB-INF/fragment/directive/taglib.jspf" %>
 
-<fmt:setBundle basename="messages"/>
+
+<head>
+    <%@ include file="/WEB-INF/fragment/locale.jspf" %>
+</head>
 
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">

@@ -58,7 +58,7 @@
       <param-value>
         logout
         NoCommand
-        Language
+        language
         ListCoursesSort
         PersonalArea
       </param-value>

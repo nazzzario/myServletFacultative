@@ -1,9 +1,6 @@
 package com.krasn.facultative.command;
 
-import com.krasn.facultative.command.impl.AddCourseCommand;
-import com.krasn.facultative.command.impl.AddStudentCommand;
-import com.krasn.facultative.command.impl.LoginCommand;
-import com.krasn.facultative.command.impl.LogoutCommand;
+import com.krasn.facultative.command.impl.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +21,7 @@ public class CommandInvoker {
         COMMANDS.put("login", LoginCommand::new);
         COMMANDS.put("logout", LogoutCommand::new );
         COMMANDS.put("add-course", AddCourseCommand::new );
+        COMMANDS.put("language", LanguageCommand::new);
     }
 
     public static FrontCommand getCommand(String commandName) {

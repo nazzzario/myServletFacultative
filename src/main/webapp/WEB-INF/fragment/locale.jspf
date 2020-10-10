@@ -1,0 +1,42 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: krasn
+  Date: 10/10/2020
+  Time: 12:49 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<div class="right">
+
+    <div class="lang-list">
+
+        <ul class="lang">
+            <li>
+                <form action="controller" method="post">
+                    <input type="hidden" name="command" value="language"/>
+                    <input type="hidden" name="language" value="en"/>
+                    <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+                    <input type="image"  alt="English">
+                </form>
+            </li>
+            <li>
+                <form action="controller" method="post">
+                    <input type="hidden" name="command" value="language">
+                    <input type="hidden" name="language" value="ua">
+                    <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+                    <input type="image"  alt="Ukraine">
+                </form>
+            </li>
+        </ul>
+
+<%--        <c:if test="${not empty user_permission}">--%>
+<%--            <b><c:out value="${user.firstName} ${user.lastName} (${user.permission})"/></b>--%>
+<%--            <a href="controller?command=Logout"><fmt:message key="header.logout"/></a>--%>
+<%--        </c:if>--%>
+
+<%--        <c:if test="${empty user_permission}">--%>
+<%--            <a href="controller?command=Login"><fmt:message key="header.login"/></a>--%>
+<%--        </c:if>--%>
+
+    </div>
+
+</div>

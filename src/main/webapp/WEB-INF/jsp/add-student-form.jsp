@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <fmt:setBundle basename="messages"/>
 <!DOCTYPE>
@@ -33,8 +32,10 @@
             <fmt:message key="btn.submit" var="submit"/>
             <button type="submit"  value="${submit}">Submit</button>
         </form>
+        <fmt:message key="login.page" var="login"/>
+        <div><a href="controller?command=login">${login}</a></div>
     </div>
 </div>
 </body>
-
+<%@ include file="/WEB-INF/fragment/script.jspf" %>
 </html>
