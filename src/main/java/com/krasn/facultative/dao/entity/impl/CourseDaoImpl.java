@@ -80,12 +80,12 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
     @Override
     protected void prepareStatementForUpdate(PreparedStatement stmt, Course object) {
         try {
-            stmt.setLong(1, object.getId());
-            stmt.setString(2, object.getCourseName());
-            stmt.setLong(3, object.getSubjectId());
-            stmt.setLong(4, object.getTeacherId());
-            stmt.setDate(5, object.getStartDate());
-            stmt.setDate(6, object.getEndDate());
+            stmt.setString(1, object.getCourseName());
+            stmt.setLong(2, object.getSubjectId());
+            stmt.setLong(3, object.getTeacherId());
+            stmt.setDate(4, object.getStartDate());
+            stmt.setDate(5, object.getEndDate());
+            stmt.setLong(6, object.getId());
         } catch (SQLException e) {
             LOGGER.error("Exception while preparing statement for create.\n", e);
         }

@@ -36670,3 +36670,1604 @@ Forward to /WEB-INF/jsp/list-courses.jsp
 Leaving doFilter()
 HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ed730a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ed730a8: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43965950 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43965950: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ab536b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ab536b: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@33e3959a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33e3959a: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6284ac24 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6284ac24: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7fdae43e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7fdae43e: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66ca3201 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66ca3201: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a74e6a1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a74e6a1: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f94583a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f94583a: (connection is dead)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1efd1025
+HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27a99d65 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27a99d65: (connection is dead)
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1efd1025
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fc01a1e
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e5562de
+HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fefe551
+HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+Leaving doFilter()
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bf93c82
+HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4880ba63
+HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25d2e93a
+HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ea1370a
+HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e10755
+HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e080a14
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1efd1025
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1efd1025
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@379619aa
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430dd2e6
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@168192a0
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57bc989b
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66218cbc
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@379367d4
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@593e9542
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33dd3ce6
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55940b1d
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28859e83
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f9a3aeb
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@430dd2e6
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@430dd2e6
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@430dd2e6
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: language
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = language )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LanguageCommand
+Entering execute()
+url: , language: ua
+Language has been changed to ua
+Leaving execute(): null
+Last command value set no class com.krasn.facultative.command.impl.LanguageCommand
+Path is null.
+Redirection to main.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1baab1d2
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f6ec6f3
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b4c245f
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40f75a7b
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e0d4cdf
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cb92aff
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@464c6fd9
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a54f86e
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c2b18e0
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37cfc109
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1baab1d2
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1baab1d2
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@1baab1d2
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ed5bef8
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@646155d1
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10886288
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea4d44
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45020593
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66c3a81c
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab40313
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7413b127
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@254d1f81
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c80a6da
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6ed5bef8
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6ed5bef8
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6ed5bef8
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s707ms432µs400ns).
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54b17c3b
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2068bd91
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44c8e6d0
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75d20ab3
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6181fe7d
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a2a42c
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68b5563b
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a99337
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5eeceb74
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, vcbxcbsfg, 1, 21, 2020-10-15, 2020-10-29
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Exception while updating.
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Truncated incorrect DOUBLE value: '2020-10-29'
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:134)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:13)
+	at com.krasn.facultative.command.impl.EditCourseCommand.doPost(EditCourseCommand.java:72)
+	at com.krasn.facultative.command.FrontCommand.execute(FrontCommand.java:45)
+	at com.krasn.facultative.util.FrontController.process(FrontController.java:44)
+	at com.krasn.facultative.util.FrontController.doPost(FrontController.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.AccessFilter.doFilter(AccessFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.EncodingFilter.doFilter(EncodingFilter.java:15)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@61293162
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@388da3ea
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c38273c
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c96eda4
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19eebcc9
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bc841f1
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14b54e13
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7130b9c3
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4df4ea37
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67760018
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, 23234, 1, 21, 2020-10-28, 2020-10-30
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+Exception while updating.
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Truncated incorrect DOUBLE value: '2020-10-30'
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:134)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:13)
+	at com.krasn.facultative.command.impl.EditCourseCommand.doPost(EditCourseCommand.java:72)
+	at com.krasn.facultative.command.FrontCommand.execute(FrontCommand.java:45)
+	at com.krasn.facultative.util.FrontController.process(FrontController.java:44)
+	at com.krasn.facultative.util.FrontController.doPost(FrontController.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.AccessFilter.doFilter(AccessFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.EncodingFilter.doFilter(EncodingFilter.java:15)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@4916e786
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eb96697
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3afa2e66
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6319756b
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fda8146
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15fb2e7
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16302d60
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33eff5c2
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b546017
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43ed0ed8
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, w3r23qr, 1, 21, 2020-10-20, 2020-10-23
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Exception while updating.
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Truncated incorrect DOUBLE value: '2020-10-23'
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:134)
+	at com.krasn.facultative.dao.entity.impl.AbstractDao.update(AbstractDao.java:13)
+	at com.krasn.facultative.command.impl.EditCourseCommand.doPost(EditCourseCommand.java:72)
+	at com.krasn.facultative.command.FrontCommand.execute(FrontCommand.java:45)
+	at com.krasn.facultative.util.FrontController.process(FrontController.java:44)
+	at com.krasn.facultative.util.FrontController.doPost(FrontController.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.AccessFilter.doFilter(AccessFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.krasn.facultative.filters.EncodingFilter.doFilter(EncodingFilter.java:15)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@6cbe762c
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4d339552
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a96f657
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fb9d6b9
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72b447c5
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11d2fafa
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b96713d
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fd116de
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43810a22
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@116f1674
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@639d632a
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, 1332, 1, 21, 2020-10-15, 2020-10-23
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Pool stats (total=10, active=0, idle=9, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, 1488, 1, 21, 2020-10-24, 2020-10-30
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@3693e2d0
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@379619aa
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@458611a5
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bb1b9e
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35f5db27
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6494e4d1
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@603a9fed
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60da7cf4
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b2960c6
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dcb367f
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45d5b9f8
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, 16569, 1, 21, 2020-10-15, 2020-10-24
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 18
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 18, zaliest, 1, 21, 2020-09-06, 2020-07-22
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+The course with id 18 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@284eca45
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.

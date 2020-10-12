@@ -16,7 +16,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.sql.Date;
-import java.time.LocalDate;
 import java.util.List;
 
 public class EditCourseCommand extends FrontCommand {

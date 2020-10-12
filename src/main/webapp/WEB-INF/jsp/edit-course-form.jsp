@@ -64,7 +64,7 @@
                             <label for="teacher"><fmt:message key="course.teacher"/></label><br>
                             <select id="teacher" name="teacher_id" class="form-control" required>
                                 <c:forEach var="teacher" items="${requestScope.teachers}">
-                                    <option value="${teacher}">${teacher.firstName} ${teacher.lastName}</option>
+                                    <option value="${teacher.id}">${teacher.firstName} ${teacher.lastName}</option>
                                 </c:forEach>
                             </select>
                         </div>
