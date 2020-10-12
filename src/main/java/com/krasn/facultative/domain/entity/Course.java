@@ -4,6 +4,7 @@ import com.krasn.facultative.domain.enums.CourseStatus;
 import com.krasn.facultative.domain.Identified;
 
 import java.io.Serializable;
+import java.sql.Date;
 import java.time.LocalDate;
 
 public class Course implements Identified<Long>, Serializable {
@@ -13,8 +14,10 @@ public class Course implements Identified<Long>, Serializable {
     private String subjectName;
     private Long teacherId;
     private String teacherName;
-    private LocalDate startDate;
-    private LocalDate endDate;
+//    private LocalDate startDate;
+//    private LocalDate endDate;
+    private Date startDate;
+    private Date endDate;
     private CourseStatus courseStatus;
 
 
@@ -51,20 +54,19 @@ public class Course implements Identified<Long>, Serializable {
         this.teacherId = teacherId;
     }
 
-
-    public LocalDate getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(LocalDate startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
-    public LocalDate getEndDate() {
+    public Date getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(LocalDate endDate) {
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
 

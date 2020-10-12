@@ -10,15 +10,18 @@ import com.krasn.facultative.dao.entity.impl.UserDaoImpl;
 import com.krasn.facultative.domain.entity.Course;
 import com.krasn.facultative.domain.entity.Subject;
 import com.krasn.facultative.domain.entity.User;
+import com.krasn.facultative.util.Parser;
 import com.krasn.facultative.util.Path;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.List;
 
 public class EditCourseCommand extends FrontCommand {
     private static final Logger LOGGER = LoggerFactory.getLogger(EditCourseCommand.class.getName());
+
 
     @Override
     protected String doGet() {
@@ -27,7 +30,7 @@ public class EditCourseCommand extends FrontCommand {
         checkOnError();
 
         Long courseId = Long.valueOf(request.getParameter("course_id"));
-        LOGGER.trace("Course id {}" ,courseId);
+        LOGGER.trace("Course id {}", courseId);
         CourseDao courseDao = new CourseDaoImpl();
         Course course = courseDao.get(courseId);
 
@@ -42,6 +45,7 @@ public class EditCourseCommand extends FrontCommand {
         request.setAttribute("teachers", teachers);
 
         LOGGER.debug("Leaving doGet()");
+
         return Path.FORWARD_TO_EDIT_COURSE;
     }
 
@@ -52,46 +56,35 @@ public class EditCourseCommand extends FrontCommand {
         Long courseId = Long.valueOf(request.getParameter("course_id"));
         String courseName = request.getParameter("course_name");
         Long subjectId = Long.valueOf(request.getParameter("subject_id"));
-        Long teacherId = null;
-        try {
-            teacherId = Long.valueOf(request.getParameter("teacher_id"));
-        } catch (NumberFormatException e) {
-            LOGGER.trace("Teacher id was set to null.");
-        }
-        LocalDate startDate = LocalDate.parse(request.getParameter("start_date"));
-        LocalDate endDate = LocalDate.parse(request.getParameter("end_date"));
+        Long teacherId = Long.valueOf(request.getParameter("teacher_id"));
 
-//        boolean valid = CourseInputValidator.validate();
 
-        if (true) {
-            LOGGER.trace("Fields: {}, {}, {}, {}, {}, {}", courseId, courseName, subjectId, teacherId, startDate, endDate);
+        Date startDate = Parser.parseDate(request.getParameter("start_date"));
+        Date endDate = Parser.parseDate(request.getParameter("end_date"));
+        LOGGER.trace("Fields: {}, {}, {}, {}, {}, {}", courseId, courseName, subjectId, teacherId, startDate, endDate);
 
-            CourseDao dao = new CourseDaoImpl();
-            Course course = dao.get(courseId);
-            course.setCourseName(courseName);
-            course.setSubjectId(subjectId);
-            course.setTeacherId(teacherId);
-            course.setStartDate(startDate);
-            course.setEndDate(endDate);
-            dao.update(course);
+        CourseDao dao = new CourseDaoImpl();
+        Course course = dao.get(courseId);
+        course.setCourseName(courseName);
+        course.setSubjectId(subjectId);
+        course.setTeacherId(teacherId);
+        course.setStartDate(startDate);
+        course.setEndDate(endDate);
+        dao.update(course);
 
-            List<Course> list = dao.getAll();
-            request.setAttribute("courses", list);
+        List<Course> list = dao.getAll();
+        request.setAttribute("courses", list);
 
-            SubjectDao subjectDao = new SubjectDaoImpl();
-            List<Subject> subjects = subjectDao.getAll();
-            request.setAttribute("subjects", subjects);
+        SubjectDao subjectDao = new SubjectDaoImpl();
+        List<Subject> subjects = subjectDao.getAll();
+        request.setAttribute("subjects", subjects);
 
-            UserDao userDao = new UserDaoImpl();
-            List<User> teachers = userDao.getTeachers();
-            request.setAttribute("teachers", teachers);
+        UserDao userDao = new UserDaoImpl();
+        List<User> teachers = userDao.getTeachers();
+        request.setAttribute("teachers", teachers);
 
-            LOGGER.trace("The course with id {} edited.", course.getId());
-        } else {
-            LOGGER.trace("Fields failed validation.");
-//            return Path.REDIRECT_TO_EDIT_COURSE + "&error=not_valid";
-            return Path.REDIRECT_TO_EDIT_COURSE;
-        }
+        LOGGER.trace("The course with id {} edited.", course.getId());
+
 
         LOGGER.debug("Leaving doPost()");
         return Path.REDIRECT_TO_VIEW_COURSES_LIST;

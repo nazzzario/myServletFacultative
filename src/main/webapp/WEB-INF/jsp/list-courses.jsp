@@ -24,7 +24,8 @@
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="courses" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="tab-pane fade show active" id="courses" role="tabpanel"
+                         aria-labelledby="nav-profile-tab">
                         <table class="table" cellspacing="0">
                             <thead>
                             <tr>
@@ -45,6 +46,14 @@
                                     <td>${course.teacherName}</td>
                                     <td>${course.courseStatus}</td>
                                     <td>${course.subjectName}</td>
+                                    <td>
+                                        <form method="get" action="controller">
+                                            <input type="hidden" name="command" value="edit-course"/>
+                                            <input type="hidden" name="course_id" value="${course.id}">
+                                            <fmt:message key="course.edit" var="course_edit"/>
+                                            <input type="submit" value="${course_edit}">
+                                        </form>
+                                    </td>
                                 </tr>
                             </c:forEach>
                             </tbody>

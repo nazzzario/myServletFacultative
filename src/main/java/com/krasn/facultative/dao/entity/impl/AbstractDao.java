@@ -86,6 +86,7 @@ public abstract class AbstractDao <T extends Identified<PK>, PK> implements Gene
                 connection.setAutoCommit(false);
                 stmt.setObject(1, key);
                 ResultSet rs = stmt.executeQuery();
+
                 object = parseResultSet(rs).iterator().next();
                 connection.commit();
             } catch (SQLException e) {

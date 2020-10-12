@@ -22,11 +22,11 @@
       <param-value>
         add-course
         add-teacher
+        edit-course
         list-users
         list-courses
         block-student
         unblock-student
-        edit-course
       </param-value>
     </init-param>
     <init-param>

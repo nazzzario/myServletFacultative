@@ -21,9 +21,11 @@ public final class Query {
     public static final String SELECT_ALL_COURSES = "select course.course_id, course.course_name, subject.subject_name, course.start_date, course.end_date, course.course_status, concat(usr.first_name, ' ', usr.last_name) as teacher\n"
     + "from course\n"
     + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
-    + "inner join usr on course.teacher_id = usr.usr_id";
+    + "inner join usr on course.teacher_id = usr.usr_id ";
 
-    public static final String SELECT_LAST_INSERT_COURSE = SELECT_UNGROUPED_COURSES + "WHERE course.course_id = LAST_INSERT_ID() GROUP BY course_student.course_id";
+    public static final String SELECT_LAST_INSERT_COURSE = SELECT_ALL_COURSES + "WHERE course.course_id = LAST_INSERT_ID()";
+    public static final String SELECT_COURSE_BY_ID = SELECT_ALL_COURSES + " WHERE course.course_id = ?";
+    public static final String UPDATE_COURSE = "UPDATE course SET course_name = ?, subject_id = ?, teacher_id = ?, start_date = ?, end_date = ? WHERE course_id = ?";
 
 
     //user

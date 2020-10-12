@@ -1,15 +1,15 @@
 package com.krasn.facultative.dao.entity.impl;
 
-import com.krasn.facultative.dao.ConnectionPool;
 import com.krasn.facultative.dao.Query;
 import com.krasn.facultative.dao.entity.CourseDao;
 import com.krasn.facultative.domain.entity.Course;
-import com.krasn.facultative.domain.entity.User;
 import com.krasn.facultative.domain.enums.CourseStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.*;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,8 +27,8 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
             stmt.setString(1, object.getCourseName());
             stmt.setLong(2, object.getSubjectId());
             stmt.setLong(3, object.getTeacherId());
-            stmt.setDate(4, Date.valueOf(object.getStartDate()));
-            stmt.setDate(5, Date.valueOf(object.getEndDate()));
+            stmt.setDate(4, object.getStartDate());
+            stmt.setDate(5, object.getEndDate());
         } catch (SQLException e) {
             LOGGER.error("Exception while preparing statement for create.\n", e);
         }
@@ -37,18 +37,17 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
     @Override
     protected List<Course> parseResultSet(ResultSet rs) {
         List<Course> list = new ArrayList<>();
-
         try {
             while (rs.next()) {
                 Course course = new Course();
                 course.setId(rs.getLong("course_id"));
                 course.setCourseName(rs.getString("course_name"));
                 course.setSubjectName(rs.getString("subject_name"));
+//                course.setTeacherId(rs.getLong("teacher_id"));
                 course.setTeacherName(rs.getString("teacher"));
-                course.setStartDate(rs.getDate("start_date").toLocalDate());
-                course.setEndDate(rs.getDate("end_date").toLocalDate());
+                course.setStartDate(rs.getDate("start_date"));
+                course.setEndDate(rs.getDate("end_date"));
                 course.setCourseStatus(CourseStatus.valueOf(rs.getString("course_status")));
-
                 list.add(course);
             }
         } catch (SQLException e) {
@@ -60,7 +59,7 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
 
     @Override
     protected String getSelectByIdQuery() {
-        return null;
+        return Query.SELECT_COURSE_BY_ID;
     }
 
     @Override
@@ -75,7 +74,7 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
 
     @Override
     protected String getUpdateQuery() {
-        return null;
+        return Query.UPDATE_COURSE;
     }
 
     @Override
@@ -85,8 +84,8 @@ public class CourseDaoImpl extends AbstractDao<Course, Long> implements CourseDa
             stmt.setString(2, object.getCourseName());
             stmt.setLong(3, object.getSubjectId());
             stmt.setLong(4, object.getTeacherId());
-            stmt.setDate(5, Date.valueOf(object.getStartDate()));
-            stmt.setDate(6, Date.valueOf(object.getEndDate()));
+            stmt.setDate(5, object.getStartDate());
+            stmt.setDate(6, object.getEndDate());
         } catch (SQLException e) {
             LOGGER.error("Exception while preparing statement for create.\n", e);
         }

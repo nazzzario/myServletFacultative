@@ -11,10 +11,12 @@ import com.krasn.facultative.domain.entity.Course;
 import com.krasn.facultative.domain.entity.Subject;
 import com.krasn.facultative.domain.entity.User;
 import com.krasn.facultative.domain.enums.CourseStatus;
+import com.krasn.facultative.util.Parser;
 import com.krasn.facultative.util.Path;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -48,8 +50,8 @@ public class AddCourseCommand extends FrontCommand {
         String courseName = request.getParameter("course_name");
         int subjectId = Integer.parseInt(request.getParameter("subject_id"));
         int teacherId = Integer.parseInt(request.getParameter("teacher_id"));
-        LocalDate startDate = LocalDate.parse(request.getParameter("start_date"));
-        LocalDate endDate = LocalDate.parse(request.getParameter("end_date"));
+        Date startDate = Parser.parseDate(request.getParameter("start_date"));
+        Date endDate = Parser.parseDate(request.getParameter("end_date"));
 
 //        boolean valid = CourseNameValidator.validate(courseName)
 //                && DateValidator.validate(startDate, expirationDate);
