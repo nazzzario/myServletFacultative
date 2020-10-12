@@ -19,6 +19,7 @@
                             <a class="nav-link" href=""><fmt:message key="nav.courses"/></a>
                         </li>
                     </c:when>
+
                     <c:when test="${sessionScope.user_role.name() == 'ADMIN'}">
                         <li class="nav-item">
                             <a class="nav-link" href="controller?command=add-teacher"><fmt:message key="nav.adm.reg"/></a>
@@ -36,17 +37,17 @@
                             <a class="nav-link" href="controller?command=list-courses"><fmt:message key="nav.adm.crs"/></a>
                         </li>
                     </c:when>
+
                     <c:when test="${sessionScope.user_role.name() == 'TEACHER'}">
                         <li class="nav-item">
                             <a class="nav-link" href=""><fmt:message key="nav.tch.journal"/></a>
                         </li>
                     </c:when>
-                    <c:when test="${sessionScope.user_role == null}">
-                        <li class="nav-item active">
-                            <a class="nav-link" href=""><fmt:message key="nav.catalog"/><span class="sr-only"></span></a>
-                        </li>
-                    </c:when>
                 </c:choose>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="controller?command=course-catalog"><fmt:message key="nav.catalog"/><span class="sr-only"></span></a>
+                </li>
             </ul>
         </div>
 

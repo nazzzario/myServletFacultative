@@ -6,39 +6,35 @@
   To change this template use File | Settings | File Templates.
 --%>
 <div>
+    <fmt:message key="lang.en" var="en"/>
+    <fmt:message key="lang.ua" var="ua"/>
 
-    <div>
+    <div class="custom-control custom-radio">
+        <form action="controller" method="post">
+            <input type="hidden" name="command" value="language"/>
+            <input type="hidden" name="language" value="en"/>
+            <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+            <input type="radio" class="custom-control-input" onclick="this.form.submit()" id="en" <c:if test="${language == 'en'}">checked</c:if>>
+            <label class="custom-control-label" for="en">${en}</label>
+        </form>
 
-        <ul  class="lang">
-            <li>
-                <form action="controller" method="post">
-                    <input type="hidden" name="command" value="language"/>
-                    <input type="hidden" name="language" value="en"/>
-                    <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
-                    <input type="image"  alt="English">
-                </form>
-            </li>
-
-            <li>
-                <form action="controller" method="post">
-                    <input type="hidden" name="command" value="language">
-                    <input type="hidden" name="language" value="ua">
-                    <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
-                    <input type="image"  alt="Ukraine">
-                </form>
-            </li>
-        </ul>
-
-
-<%--        <c:if test="${not empty user_permission}">--%>
-<%--            <b><c:out value="${user.firstName} ${user.lastName} (${user.permission})"/></b>--%>
-<%--            <a href="controller?command=Logout"><fmt:message key="header.logout"/></a>--%>
-<%--        </c:if>--%>
-
-<%--        <c:if test="${empty user_permission}">--%>
-<%--            <a href="controller?command=Login"><fmt:message key="header.login"/></a>--%>
-<%--        </c:if>--%>
+        <form action="controller" method="post">
+            <input type="hidden" name="command" value="language">
+            <input type="hidden" name="language" value="ua">
+            <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+            <input type="radio" class="custom-control-input" onclick="this.form.submit()" id="ua" <c:if test="${language == 'ua'}">checked</c:if>>
+            <label class="custom-control-label" for="ua">${ua}</label>
+        </form>
 
     </div>
 
+
+    <%--        <c:if test="${not empty user_permission}">--%>
+    <%--            <b><c:out value="${user.firstName} ${user.lastName} (${user.permission})"/></b>--%>
+    <%--            <a href="controller?command=Logout"><fmt:message key="header.logout"/></a>--%>
+    <%--        </c:if>--%>
+
+    <%--        <c:if test="${empty user_permission}">--%>
+    <%--            <a href="controller?command=Login"><fmt:message key="header.login"/></a>--%>
+    <%--        </c:if>--%>
 </div>

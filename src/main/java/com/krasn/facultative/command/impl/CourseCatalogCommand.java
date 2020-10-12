@@ -10,28 +10,27 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-public class ListCoursesCommand extends FrontCommand {
-    private static final Logger LOGGER = LoggerFactory.getLogger(ListCoursesCommand.class.getName());
+public class CourseCatalogCommand extends FrontCommand {
+    private static final Logger LOGGER = LoggerFactory.getLogger(CourseCatalogCommand.class.getName());
 
     @Override
     protected String doGet() {
-
         LOGGER.debug("Entering doGet()");
 
 
         CourseDao dao = new CourseDaoImpl();
-        List<Course> courses = dao.getAll();
+        List<Course> courses = dao.getAllNotStartedCourses();
 
-        request.setAttribute("courses",courses );
+        request.setAttribute("catalogCourse",courses );
 
-        LOGGER.trace("Course list contains {} items.",courses.size());
+        LOGGER.trace("Not started course list contains {} items.",courses.size());
 
         LOGGER.debug("Leaving doGet()");
-        return Path.FORWARD_TO_VIEW_COURSES_LIST;
+        return Path.FORWARD_TO_VIEW_COURSES_CATALOG;
     }
 
     @Override
     protected String doPost() {
-        return Path.REDIRECT_TO_VIEW_COURSES_LIST;
+        return Path.REDIRECT_TO_VIEW_COURSES_CATALOG;
     }
 }

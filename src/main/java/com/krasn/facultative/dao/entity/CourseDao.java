@@ -7,6 +7,7 @@ import com.krasn.facultative.domain.entity.User;
 import java.util.List;
 
 public interface CourseDao extends GenericDao<Course, Long> {
+    List<Course> getAllNotStartedCourses();
 }
 
 

@@ -1,5 +1,9 @@
 package com.krasn.facultative.dao;
 
+import com.krasn.facultative.domain.entity.Course;
+
+import java.util.List;
+
 public final class Query {
 
     private Query() {
@@ -8,11 +12,12 @@ public final class Query {
 
 
 
+
     //course
-    public static final String SELECT_UNGROUPED_COURSES = "SELECT subject.subject_name, usr.first_name, usr.last_name, course.*, COUNT(*) AS 'subscribed_by' FROM course_student\n"
-            + "RIGHT JOIN course ON course.course_id = course_student.course_id\n"
-            + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
-            + "LEFT JOIN usr ON usr.usr_id = course.teacher_id\n";
+//    public static final String SELECT_UNGROUPED_COURSES = "SELECT subject.subject_name, usr.first_name, usr.last_name, course.*, COUNT(*) AS 'subscribed_by' FROM course_student\n"
+//            + "RIGHT JOIN course ON course.course_id = course_student.course_id\n"
+//            + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
+//            + "LEFT JOIN usr ON usr.usr_id = course.teacher_id\n";
 
     public static final String INSERT_COURSE = "INSERT INTO course " +
             "(course_name, subject_id,teacher_id, start_date, end_date) " +
@@ -22,6 +27,7 @@ public final class Query {
     + "from course\n"
     + "INNER JOIN subject ON course.subject_id = subject.subject_id\n"
     + "inner join usr on course.teacher_id = usr.usr_id ";
+    public static final String SELECT_ALL_NOT_STARTED_COURSES =SELECT_ALL_COURSES  + "WHERE course_status = 'NOT_STARTED'";
 
     public static final String SELECT_LAST_INSERT_COURSE = SELECT_ALL_COURSES + "WHERE course.course_id = LAST_INSERT_ID()";
     public static final String SELECT_COURSE_BY_ID = SELECT_ALL_COURSES + " WHERE course.course_id = ?";

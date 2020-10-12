@@ -32,4 +32,8 @@ public class Path {
 
     public static final String REDIRECT_TO_VIEW_COURSES_LIST = "controller?command=list-courses";
     public static final String FORWARD_TO_VIEW_COURSES_LIST = "/WEB-INF/jsp/list-courses.jsp";
+
+    public static final String REDIRECT_TO_VIEW_COURSES_CATALOG = "controller?command=course-catalog";
+    public static final String FORWARD_TO_VIEW_COURSES_CATALOG = "/WEB-INF/jsp/course-catalog.jsp";
+
 }

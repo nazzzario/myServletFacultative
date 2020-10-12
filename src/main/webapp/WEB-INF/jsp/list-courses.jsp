@@ -35,6 +35,7 @@
                                 <th><fmt:message key="course.teacher"/></th>
                                 <th><fmt:message key="course.status"/></th>
                                 <th><fmt:message key="course.subject"/></th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>

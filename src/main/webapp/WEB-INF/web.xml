@@ -53,6 +53,7 @@
         language
         login
         add-student
+        course-catalog
       </param-value>
     </init-param>
   </filter>

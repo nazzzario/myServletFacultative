@@ -27,6 +27,7 @@ public class CommandInvoker {
         COMMANDS.put("add-course", AddCourseCommand::new );
         COMMANDS.put("list-courses", ListCoursesCommand::new);
         COMMANDS.put("edit-course", EditCourseCommand::new);
+        COMMANDS.put("course-catalog",CourseCatalogCommand::new);
 
         COMMANDS.put("list-users",ListUsersCommand::new);
         COMMANDS.put("block-student",BlockStudentCommand::new);
