@@ -38271,3 +38271,225 @@ Forward to /WEB-INF/jsp/list-courses.jsp
 Leaving doFilter()
 HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@284eca45 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@284eca45: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@458611a5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@458611a5: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4bb1b9e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bb1b9e: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35f5db27 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35f5db27: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6494e4d1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6494e4d1: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@603a9fed (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@603a9fed: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60da7cf4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60da7cf4: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b2960c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43f8253e
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b2960c6: (connection is dead)
+HikariPool-1 - After adding stats (total=3, active=1, idle=2, waiting=0)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1dcb367f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1dcb367f: (connection is dead)
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45d5b9f8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45d5b9f8: (connection is dead)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c52f05
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@43f8253e
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330d0ffe
+HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62ead04a
+HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+Leaving doFilter()
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78b58f36
+HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71512d1f
+HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@224abdb1
+HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@317c6208
+HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@537c6c18
+HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24e51bdc
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Logger has been initialized.
+Entering access filter init.
+Access map contains 3 items.
+Commons list contains 1 items.
+Out of control list contains 3 items.
+Leaving access filter init.
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Leaving execute(): /WEB-INF/jsp/login.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Forward to /WEB-INF/jsp/login.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: login
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = login )
+Leaving getCommand(): class com.krasn.facultative.command.impl.LoginCommand
+Entering execute()
+Entering doPost()
+on doPost() login = test; password = 1
+Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@379619aa
+
+HikariPool-1 - configuration:
+allowPoolSuspension.............false
+autoCommit......................true
+catalog.........................none
+connectionInitSql...............none
+connectionTestQuery.............none
+connectionTimeout...............30000
+dataSource......................none
+dataSourceClassName.............none
+dataSourceJNDI..................none
+dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+driverClassName................."com.mysql.cj.jdbc.Driver"
+exceptionOverrideClassName......none
+healthCheckProperties...........{}
+healthCheckRegistry.............none
+idleTimeout.....................600000
+initializationFailTimeout.......1
+isolateInternalQueries..........false
+jdbcUrl.........................jdbc:mysql://localhost:3306/facultative_db
+leakDetectionThreshold..........0
+maxLifetime.....................1800000
+maximumPoolSize.................10
+metricRegistry..................none
+metricsTrackerFactory...........none
+minimumIdle.....................10
+password........................<masked>
+poolName........................"HikariPool-1"
+readOnly........................false
+registerMbeans..................false
+scheduledExecutor...............none
+schema..........................none
+threadFactory...................internal
+transactionIsolation............default
+username........................"root"
+validationTimeout...............5000
+HikariPool-1 - Starting...
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+HikariPool-1 - Start completed.
+on doPost() user with id 1
+Leaving doPost() main.jsp 
+Leaving execute(): main.jsp
+Last command value set no class com.krasn.facultative.command.impl.LoginCommand
+Redirect to main.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16b2f665
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@578ffc5e
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6612cb3e
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37a00311
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@303d9cb7
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33ee5800
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17081cf5
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460450fa
+HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a00d4e6
+HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doGet()
+Course id 17
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/edit-course-form.jsp
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Forward to /WEB-INF/jsp/edit-course-form.jsp
+Leaving doFilter()
+Entering doFilter()
+Command: edit-course
+Filter finished
+Entering process(actionType = POST)
+Entering getCommand(commandName = edit-course )
+Leaving getCommand(): class com.krasn.facultative.command.impl.EditCourseCommand
+Entering execute()
+Entering doPost()
+Date successfully parsed.
+Date successfully parsed.
+Fields: 17, 13333333333333, 1, 21, 2020-10-22, 2020-10-30
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+The course with id 17 edited.
+Leaving doPost()
+Leaving execute(): controller?command=list-courses
+Last command value set no class com.krasn.facultative.command.impl.EditCourseCommand
+Redirect to controller?command=list-courses
+Leaving doFilter()
+Entering doFilter()
+Command: list-courses
+Filter finished
+Entering process(actionType = GET)
+Entering getCommand(commandName = list-courses )
+Leaving getCommand(): class com.krasn.facultative.command.impl.ListCoursesCommand
+Entering execute()
+Entering doGet()
+HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@36e484a6
+Students list contains 5 items.
+Leaving doGet()
+Leaving execute(): /WEB-INF/jsp/list-courses.jsp
+Last command value set no class com.krasn.facultative.command.impl.ListCoursesCommand
+Forward to /WEB-INF/jsp/list-courses.jsp
+Leaving doFilter()
+HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+HikariPool-1 - Fill pool skipped, pool is at sufficient level.

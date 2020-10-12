@@ -29,7 +29,7 @@
                     <div class="form-group row">
                         <label class="col-md-4 col-form-label text-md-right"><fmt:message key="course.name"/></label>
                         <div class="col-md-6">
-                            <input class="form-control" type="text" name="course_name"/>
+                            <input class="form-control" type="text" name="course_name" value="${requestScope.course.courseName}"/>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@
                         <label class="col-md-4 col-form-label text-md-right"><fmt:message
                                 key="course.start.date"/></label>
                         <div class="col-md-6">
-                            <input type="date" class="form-control" name="start_date"/>
+                            <input type="date" class="form-control" name="start_date" value="${requestScope.course.startDate}"/>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                         <label class="col-md-4 col-form-label text-md-right"><fmt:message
                                 key="course.end.date"/></label>
                         <div class="col-md-6">
-                            <input type="date" class="form-control" name="end_date"/>
+                            <input type="date" class="form-control" name="end_date" value="${requestScope.course.endDate}"/>
                         </div>
                     </div>
 
